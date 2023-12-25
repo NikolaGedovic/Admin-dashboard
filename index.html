@@ -8,13 +8,18 @@
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
 
-    <!-- Font Awesome Icons -->
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+    />
+
+    <!-- Google Icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
     />
   </head>
   <body>
@@ -23,35 +28,49 @@
 
       <div class="sidebar">
         <div><h1>Dashboard</h1></div>
-        <div class="sidebar-upper">
-          <div class="icons">
-            <i class="fa-solid fa-house"></i>
-            <i class="fa-solid fa-user"></i>
-            <i class="fa-solid fa-message"></i>
-            <i class="fa-solid fa-clock"></i>
-            <i class="fa-solid fa-list-check"></i>
-            <i class="fa-solid fa-handshake"></i>
-          </div>
-          <div class="navigation">
-            <p>Home</p>
-            <p>Profile</p>
-            <p>Messages</p>
-            <p>History</p>
-            <p>Tasks</p>
-            <p>Communities</p>
-          </div>
+        <div class="sidebar-upper-links">
+          <ul>
+            <li>
+              <span class="material-icons"> home </span>
+              <p>Home</p>
+            </li>
+            <li>
+              <span class="material-icons"> account_circle </span>
+              <p>Profile</p>
+            </li>
+            <li>
+              <span class="material-icons"> email </span>
+              <p>Messages</p>
+            </li>
+            <li>
+              <span class="material-icons"> watch_later </span>
+              <p>History</p>
+            </li>
+            <li>
+              <span class="material-icons"> task </span>
+              <p>Tasks</p>
+            </li>
+            <li>
+              <span class="material-icons"> groups </span>
+              <p>Communities</p>
+            </li>
+          </ul>
         </div>
-        <div class="sidebar-lower">
-          <div class="icons">
-            <i class="fa-solid fa-gear"></i>
-            <i class="fa-solid fa-circle-question"></i>
-            <i class="fa-solid fa-user-shield"></i>
-          </div>
-          <div class="navigation">
-            <p>Settings</p>
-            <p>Support</p>
-            <p>Privacy</p>
-          </div>
+        <div class="sidebar-lower-links fa-xl">
+          <ul>
+            <li>
+              <span class="material-icons"> settings </span>
+              <p>Settings</p>
+            </li>
+            <li>
+              <span class="material-icons"> info </span>
+              <p>Support</p>
+            </li>
+            <li>
+              <span class="material-icons"> verified_user </span>
+              <p>Privacy</p>
+            </li>
+          </ul>
         </div>
       </div>
 
