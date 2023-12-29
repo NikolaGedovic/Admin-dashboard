@@ -205,7 +205,6 @@ body {
 }
 
 .projects {
-  /* background-color: aqua; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
@@ -223,6 +222,7 @@ body {
 .card-title {
   font-weight: 700;
   font-size: 1.1rem;
+  cursor: pointer;
 }
 
 .actions {
@@ -242,4 +242,116 @@ body {
   .card {
     width: 100%;
   }
+}
+
+/* Main Left Side Style */
+
+.announcements-trending {
+  margin: 0;
+  padding: 20px 20px 0 20px;
+}
+
+.main-left {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: white;
+  padding: 0 1.56rem;
+  border-radius: 0.6rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  cursor: default;
+  margin: 0;
+}
+
+.main-left>li {
+  list-style-type: none;
+}
+
+.main-left>li:last-child {
+  margin-bottom: 0.875rem;
+}
+
+.main-titles {
+  margin: 10px 0 10px 0;
+}
+
+.announcements-titles {
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.announcements-content {
+  font-size: 0.8125rem;
+  line-height: 1.1;
+  margin: 0.3125rem 0 0 0;
+}
+
+/* Trending Style */
+
+
+.trending {
+  margin-top: 2rem;
+}
+
+.trending>.main-left {
+  padding-top: 1.25rem;
+}
+
+.trending>.main-left>li {
+  gap: 1.5rem;
+}
+
+.trending>ul>li {
+  display: flex;
+  align-items: center;
+}
+
+.trending-profile {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8125rem;
+}
+
+.user-tag {
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 0.84375rem;
+  cursor: pointer;
+}
+
+.trending-project {
+  margin-top: 0.3125rem;
+}
+
+.avatar-1 {
+  background: var(--avatar-2) center center / cover no-repeat;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.avatar-2 {
+  background: var(--avatar-1) center center / cover no-repeat;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.avatar-3 {
+  background: var(--avatar-3) center center / cover no-repeat;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.avatar-4 {
+  background: var(--avatar-4) center center / cover no-repeat;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
 }
